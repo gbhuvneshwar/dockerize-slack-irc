@@ -34,5 +34,5 @@ Build the docker container and run it locally:
 ```
 cd dockerize-slack-irc
 docker build -t slack-irc .
-docker run -d -t slack-irc
+docker run -d --mount type=bind,src=/path/on/host/to/config.json,dst=/app/config.json -t slack-irc
 ```
