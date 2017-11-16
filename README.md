@@ -16,11 +16,16 @@ docker run -d --mount type=bind,src=/path/on/host/to/config.json,dst=/app/config
 ## Build Docker Image Locally and Install
 ### Installation
 ```
+cd ~
 git clone --recursive https://github.com/mrhillsman/dockerize-slack-irc
 ```
 
 ### Configuration
-Copy `config.json.sample` to `config.json` and edit appropriately.
+Copy `config.json.sample` to `~/config.json` and edit appropriately.
+```
+cp dockerize-slack-irc/config.json.sample config.json
+```
+
 
 ### Building and running
 
