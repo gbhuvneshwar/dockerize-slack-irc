@@ -1,0 +1,3 @@
+[submodule "slack-irc"]
+	path = slack-irc
+	url = https://github.com/ekmartin/slack-irc

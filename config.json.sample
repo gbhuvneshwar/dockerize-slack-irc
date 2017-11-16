@@ -1,0 +1,23 @@
+[
+  {
+    "nickname": "put-bot-nickname-here",
+    "server": "chat.freenode.net",
+    "token": "put-bot-token-here",
+    "avatarUrl": "https://robohash.org/$username.png?set=set3&size=48x48",
+    "slackUsernameFormat": "<$username>",
+    "ircUsernameFormat": "<$username> ",
+    "channelMapping": {
+      "put-slack-channel-here": "put-irc-channel-here"
+    },
+    "ircOptions": {
+      "floodProtection": false,
+      "floodProtectionDelay": 1000
+    },
+    "commandCharacters": ["!", "."],
+    "muteSlackbot": true,
+    "ircStatusNotices": {
+      "join": false,
+      "leave": true
+    }
+  }
+]
