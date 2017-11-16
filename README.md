@@ -8,7 +8,7 @@ Docker container for [slack-irc](https://github.com/ekmartin/slack-irc)
 ### Update configuration
 Copy `config.json.sample` to `config.json` and edit appropriately.
 
-### Start container w/config.json mounted
+### Start container with config.json mounted
 ```
 docker run -d --mount type=bind,src=/path/on/host/to/config.json,dst=/app/config.json mrhillsman/dockerize-slack-irc
 ```
