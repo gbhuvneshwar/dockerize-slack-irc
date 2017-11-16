@@ -29,7 +29,7 @@ cp dockerize-slack-irc/config.json.sample config.json
 
 ### Building and running
 
-Build the docker container and run it locally:
+Build the docker container locally and run it:
 
 ```
 cd dockerize-slack-irc
